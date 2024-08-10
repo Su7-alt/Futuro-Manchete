@@ -1,0 +1,100 @@
+*{
+    padding:0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    margin: 0rem;
+    }
+
+nav{
+    background-color: rgb(7, 7, 7);
+    padding: 1rem 1rem;
+}
+#Topicos{
+    font-size: 2rem;
+    color: rgb(192, 185, 185);
+}
+a:hover{
+    color: rgb(168, 22, 226);
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+nav li{
+    display: flex;
+    justify-content: center;
+    text-decoration: solid;
+    color: rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+}
+body{
+    background-image: linear-gradient( rgb(113, 79, 145), rgb(48, 50, 90));
+}
+header{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 10rem;
+}
+h1{
+    font-size: 3.5rem;
+    color: rgb(0, 0, 0);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    color: rgb(41, 38, 38)
+}
+figure{
+    margin-left: 13rem;
+    margin-right: 10rem;
+    margin-top: 3rem;
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    margin-right: 40rem;
+    
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    background-color: black;
+    }
+footer p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: aliceblue;
+    font-size: 20px;
+    white-space: nowrap;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+footer {
+    text-decoration: none;
+}
+footer p:hover{
+    color: rgb(73, 25, 185)
+}
+a{
+    text-decoration: none;
+}
+figure {
+    display: inline-block;
+    margin-left: 10rem;
+}
+figure figcaption {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
